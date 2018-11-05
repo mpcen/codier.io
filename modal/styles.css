@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#main {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        to bottom right,
+        #1BE7FF,
+        #6EEB83
+    );
+    
+}
+
+#btn-openModal {
+    width: 200px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #303036;
+    font-size: 16px;
+}
+
+#btn-openModal:hover {
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+
+#modal-container.closed {
+    display: none;
+}
+
+#modal-container.opened {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    background-color: rgba(150, 150, 150, 0.5);
+}
+
+#modal-card {
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background-color: white;
+    color: #28282D;
+    font-family: Arial;
+    padding: 12px;
+}
+
+#modal-card button {
+    border: none;
+    background-color: #FC9783;
+    color: white;
+    border-radius: 8px;
+    padding: 4px;
+    width: 64px;
+}
+
+#modal-card button:hover {
+    cursor: pointer;
+}
