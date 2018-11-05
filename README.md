@@ -4,5 +4,8 @@
 ### Solutions:
 
 ### [Modal](https://codepen.io/mpcen-the-decoder/pen/VVYpYL)
+![](https://i.imgur.com/xEGNnx2.png)
+![](https://i.imgur.com/YaYYvEl.png)
 
 ### [Material Design Card](https://codepen.io/mpcen-the-decoder/pen/rQazaQ)
+![](https://i.imgur.com/LiwG7kM.png)
